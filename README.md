@@ -1,4 +1,4 @@
-React Vite Tailwind Template
+# ⚡React Vite Tailwind Template
 
 This is a modern, fast, and scalable web application template built with Vite, React, TypeScript, SCSS + Tailwind for styling, formatted with Prettier, and ready for deployment with gh-pages. It also utilizes react-router for routing. This template is designed to kickstart the project development with a solid and up-to-date tech stack.
 
