@@ -1,18 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 html {
-	font-size: 16px;
-	scroll-behavior: smooth;
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: 'Indie Flower', 'Amatic SC', cursive !important;
-	margin: 0;
-	padding: 0;
-	scroll-behavior: smooth;
+  @apply bg-background text-textPrimary font-sans;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-textPrimary font-bold;
+}
+
+a {
+  @apply text-primary hover:text-secondary;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.panel {
+  @apply p-4 bg-border rounded-lg shadow-lg;
 }
