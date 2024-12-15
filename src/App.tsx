@@ -10,9 +10,9 @@ const App = () => {
       <div className="max-w-[1200px] mx-auto bg-background min-h-screen flex-grow">
 	  	<Header />
 			<div className="flex-center">
-          		<Outlet />
-        	</div>
-		<Footer />
+        <Outlet />
+      </div>
+      <Footer />
       </div>
     </div>
   )
