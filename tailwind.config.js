@@ -4,12 +4,12 @@ export default {
 	theme: {
 	  extend: {
 		colors: {
-		  dark1: '#1E2952',
-		  dark2: '#323749',
+		  dark1: '#0A192F',
+		  dark2: '#3C3C3C',
 		  light1: '#C8C6D7',
 		//   light2: '#C7CEDB',
 		  accent1: '#931F1D',
-		  accent2: '#6874E8',
+		  accent2: '#BFAB25',
 		},
 		fontFamily: {
 		  sans: ['Open Sans', 'sans-serif'], 
