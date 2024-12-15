@@ -5,6 +5,7 @@ export default {
 	  extend: {
 		colors: {
 		  background: '#0a192f', // Dark navy background
+		  outerBackground: '#f0f0f0',
 		  primary: '#6a0dad', // Primary accent color
 		  secondary: '#e63946', // Secondary accent color
 		  textPrimary: '#a8a8a8', // Primary text color
@@ -34,8 +35,8 @@ export default {
 		},
 	  },
 	  screens: {
-		tablet: { max: '63.9375rem' }, // 1023px
-		phone: { max: '47.9375rem' }  // 767px
+		tablet: { max: '64rem' }, // ~1025px
+		phone: { max: '48rem' }  // ~770px
 	  }
 	},
 	plugins: [],

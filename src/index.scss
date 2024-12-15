@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '@fortawesome/fontawesome-free/css/all.css';
 
 html {
   font-size: 16px;
@@ -23,9 +24,18 @@ a {
 }
 
 .flex-center {
-  @apply flex items-center justify-center;
+  @apply flex flex-col items-center justify-center text-center;
 }
 
 .panel {
   @apply p-4 bg-border rounded-lg shadow-lg;
+}
+
+.mobile-menu {
+  @apply hidden;
+}
+
+.mobile-menu-button:focus + .mobile-menu,
+.mobile-menu:hover {
+  @apply block;
 }
