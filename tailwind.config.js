@@ -4,16 +4,15 @@ export default {
 	theme: {
 	  extend: {
 		colors: {
-		  background: '#0a192f', // Dark navy background
-		  outerBackground: '#f0f0f0',
-		  primary: '#6a0dad', // Primary accent color
-		  secondary: '#e63946', // Secondary accent color
-		  textPrimary: '#a8a8a8', // Primary text color
-		  textSecondary: '#333', // Secondary text color
-		  border: '#333', // Border color
+		  dark1: '#1E2952',
+		  dark2: '#323749',
+		  light1: '#C8C6D7',
+		//   light2: '#C7CEDB',
+		  accent1: '#931F1D',
+		  accent2: '#6874E8',
 		},
 		fontFamily: {
-		  sans: ['Inter', 'sans-serif'], // Replace 'Inter' with your preferred font
+		  sans: ['Open Sans', 'sans-serif'], 
 		},
 		spacing: {
 		  small1: '0.25rem', // 4px
@@ -40,5 +39,4 @@ export default {
 	  }
 	},
 	plugins: [],
-  };
-  
+  }

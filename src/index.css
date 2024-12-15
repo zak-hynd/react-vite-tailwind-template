@@ -9,26 +9,28 @@ html {
 }
 
 body {
-  @apply bg-background text-textPrimary font-sans;
+  @apply bg-dark1 text-light1 font-sans;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply text-textPrimary font-bold;
+  @apply text-light1 font-bold;
 }
 
-a {
-  @apply text-primary hover:text-secondary;
-}
+a, button {
+  @apply text-light1 bg-dark2 rounded px-1 py-0.5 transition-colors duration-500;
+  &:hover { 
+    @apply text-dark1 bg-accent1;
+  } }
 
 .flex-center {
   @apply flex flex-col items-center justify-center text-center;
 }
 
 .panel {
-  @apply p-4 bg-border rounded-lg shadow-lg;
+  @apply p-4 bg-dark2 rounded-lg shadow-lg;
 }
 
 .mobile-menu {
