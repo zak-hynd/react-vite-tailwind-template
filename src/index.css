@@ -3,6 +3,8 @@
 @tailwind utilities;
 @import '@fortawesome/fontawesome-free/css/all.css';
 
+
+
 html {
   font-size: 16px;
   scroll-behavior: smooth;

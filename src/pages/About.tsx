@@ -1,9 +1,13 @@
-import React from 'react'
+import Title from "@/components/common/Title"
 
 export default function About() {
   return (
-    <div className="text-center">
+    <div>
+      <Title />
+
+      <div className="text-center">
         About moi...
+      </div>
     </div>
     )
 }
