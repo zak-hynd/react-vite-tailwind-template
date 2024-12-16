@@ -2,16 +2,16 @@ import React, { useEffect, useState } from 'react'
 import createBoard from './utils/createBoard'
 import nextBoard from './utils/nextBoard'
 import { Board, life, gosper, pulsars } from './utils/conwaysBoards'
-import {Link} from 'react-router-dom'
 
-const refreshInterval = 100; // milliseconds
-const size = 40;
-const spacing = 3;
+
+const refreshInterval = 100 // milliseconds
+const size = 40
+const spacing = 3
 
 const GameOfLife: React.FC = () => {
   const [board, setBoard] = useState<Board>(life); //start with the 'life' board
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null)
-  const [isRunning, setIsRunning] = useState<boolean>(true)
+  const [isRunning, setIsRunning] = useState<boolean>(false)
 
   const handleContextMenu = (event: React.MouseEvent<HTMLDivElement>) => {
     event.preventDefault()}
