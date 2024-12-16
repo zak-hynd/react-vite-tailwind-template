@@ -32,7 +32,7 @@ a, button {
 }
 
 .panel {
-  @apply p-4 bg-dark2 rounded-lg shadow-lg;
+  @apply p-4 m-4 bg-dark2 bg-opacity-50 rounded-lg shadow-lg;
 }
 
 .mobile-menu {

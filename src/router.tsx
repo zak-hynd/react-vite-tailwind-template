@@ -6,6 +6,7 @@ import {
   import App from './App'
   import Home from '../src/pages/Home'
   import About from '../src/pages/About'
+  import GameOfLife from './components/projects/conways/GameOfLife'
 
   
   const router = createBrowserRouter(
@@ -14,6 +15,7 @@ import {
         <Route path="/" element={<App />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/conways" element= {<GameOfLife />} />
         </Route>  
       </>
     )

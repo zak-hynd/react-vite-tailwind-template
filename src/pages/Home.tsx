@@ -1,4 +1,5 @@
 import Title from "@/components/common/Title"
+import Porjects from "@/components/Porjects"
 import { Link } from "react-router-dom"
 
 const Home = () => {
@@ -9,9 +10,8 @@ const Home = () => {
         <Link to="/about">{`about`}</Link>
       </div>
         
-      <h2 className="font-bold">
-        Some projects...
-      </h2>
+      <Porjects />
+      
     </div>
   )
 }

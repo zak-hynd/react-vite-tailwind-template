@@ -6,7 +6,7 @@ import Footer from '../src/components/common/Footer'
 const App = () => {
   return (
     <div className="bg-dark2">
-      <div className="max-w-[1200px] mx-auto bg-dark1 min-h-screen flex-grow">
+      <div className="max-w-[1000px] mx-auto bg-dark1 min-h-screen flex-grow">
 	  	<Header />
 			<div className="flex-center">
         <Outlet />
