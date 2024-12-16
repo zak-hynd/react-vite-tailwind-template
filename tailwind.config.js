@@ -9,7 +9,7 @@ export default {
 		  light1: '#C8C6D7',
 		//   light2: '#C7CEDB',
 		  accent1: '#931F1D',
-		  accent2: '#BFAB25',
+		  accent2: '#008DD5',
 		},
 		fontFamily: {
 		  sans: ['Open Sans', 'sans-serif'], 

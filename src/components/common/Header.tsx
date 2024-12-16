@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Header() {
   return (
     <header className="p-2 flex justify-between items-center">
-      <Link to="/" className="font-bold text-lg">
+      <Link to="/" className="font-bold text-lg text-light1 px-1.5">
         {`{zh}`}
       </Link>
       <div className="flex space-x-4 text-lg">
@@ -12,14 +12,14 @@ export default function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin text-light1 px-1.5"></i>
         </a>
         <a
           href="https://github.com/zak-hynd"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          <i className="fab fa-github text-light1 px-1.5"></i>
         </a>
       </div>
     </header>

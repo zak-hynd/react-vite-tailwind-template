@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a, button {
-  @apply text-light1 bg-dark2 rounded px-1 py-0.5 transition-colors duration-500;
+  @apply text-accent2 bg-dark2 rounded transition-colors duration-500;
   &:hover { 
     @apply text-dark1 bg-accent1;
   } }
