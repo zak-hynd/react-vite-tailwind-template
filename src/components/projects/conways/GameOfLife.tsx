@@ -11,7 +11,7 @@ const spacing = 3;
 const GameOfLife: React.FC = () => {
   const [board, setBoard] = useState<Board>(life); //start with the 'life' board
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null)
-  const [isRunning, setIsRunning] = useState<boolean>(false)
+  const [isRunning, setIsRunning] = useState<boolean>(true)
 
   const handleContextMenu = (event: React.MouseEvent<HTMLDivElement>) => {
     event.preventDefault()}
